@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Viz</title>
+    <meta name="viewwport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
+        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m1-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>    
+                </li>
+                <li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                </li>
+                <li>
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            
+            </ul>
+        </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="box">
+                    <h3 class="title">Wind Speed</h3>
+                    <hr>
+                    <img src="Wind Speed.png" class="visualization" alt="Wind Speed">
+                    <p>There is no clear relationship between wind speed and latitude.  There are many more cities with lower wind speeds than higher wind speeds but those who have higher wind speeds do not seem to have a pattern.  They tend to cluster at higher or lower latitudes.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="box">
+                    <h5 class="title">Visualizations</h5>
+                    <hr>
+
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="Max Temp.html">
+                                    <img class="panel" src="Max Temp Graph.png" alt="Max Temperature Image">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="Humidity.html">
+                                    <img class="panel" src="Humidity.png" alt="Humidity Graph">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-6">
+                            <a href="Cloudiness.html">
+                                <img class="panel" src="Cloudiness.png" alt="Cloudiness Graph">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="Wind Speed.html">
+                                <img class="panel" src="Wind Speed.png" alt="Wind Speed Graph">
+                            </a>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">Coding Bootcamp 2019</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
